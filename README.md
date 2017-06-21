@@ -112,7 +112,7 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
 1) Make header (footer) to implement Reusable protocol
 ```swift
 import Reusable
-
+//...
 class CollectionHeaderView: UICollectionReusableView, Reusable {
 ```
 2) (optional) Make cusom xib view (UICollectionReusableView) and set it's class to CollectionHeaderView
