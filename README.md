@@ -1,6 +1,8 @@
 # Reusable
 Easy way to setup custom cells with xib
 
+|![Demo](Exmple/Demo.gif)|
+
 ## Contents
 - [Requirements](#requirements)
 - [Installation](#installation)
