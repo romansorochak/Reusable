@@ -140,4 +140,4 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
 
 ## License
 
-Reusable is released under the MIT license. See LICENSE for details.
+Reusable is released under the MIT license. See [LICENSE](https://github.com/romansorochak/Reusable/blob/master/LICENSE) for details.
