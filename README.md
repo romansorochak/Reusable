@@ -1,9 +1,6 @@
 # Reusable
 Easy way to setup custom cells with xib
 
-
-![Demo](https://github.com/romansorochak/ParallaxHeader/blob/master/Exmple/Demo.gif)
-
 ## Contents
 - [Requirements](#requirements)
 - [Installation](#installation)
