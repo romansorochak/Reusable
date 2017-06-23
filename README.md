@@ -45,7 +45,9 @@ $ pod install
 
 ## Usage
 
-### UITableView
+Make sure you name your cell's class and xib with the same names - MyCell.swift & MyCell.xib.
+
+### UITableViewCell
 #### Custom table cell with xib
 1) Make cell to implement Reusable protocol
 ```swift
@@ -87,7 +89,7 @@ func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) ->
 }
 ```
 
-### UICollectionView
+### UICollectionViewCell
 #### Custom collection cell with xib
 1) Make cell to implement Reusable protocol
 ```swift
