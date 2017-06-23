@@ -45,7 +45,12 @@ $ pod install
 
 ## Usage
 
-Make sure you name your cell's class and xib with the same names - MyCell.swift & MyCell.xib.
+Make sure you name your cell's class and xib with the same names 
+    - MyCell.swift:
+    ```swift
+    class MyCell: UITableViewCell, Reusable {
+    ```
+    - MyCell.xib
 
 ### UITableViewCell
 #### Custom table cell with xib
