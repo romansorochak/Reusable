@@ -138,6 +138,9 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
 }
 ```
 
+## Author
+Roman Sorochak - iOS developer - roman.sorochak@gmail.com
+
 ## License
 
 Reusable is released under the MIT license. See [LICENSE](https://github.com/romansorochak/Reusable/blob/master/LICENSE) for details.
