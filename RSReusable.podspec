@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "Reusable"
+  s.name         = "RSReusable"
   s.version      = "1.0.7"
   s.summary      = "Easy way to setup custom cells with xib"
   s.description  = "Reusable protocol makes it easier to use custom cells with xib for UICollectionView/UItableView. With Reusable library there is no need to register class or nib. You just need to import Reusable and use appropriate method of UITableView/UICollectionView extensions. It also makes it simpler to use custom view with Xib."
