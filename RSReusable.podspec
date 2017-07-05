@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/romansorochak/Reusable.git", :tag => "1.0.67" }
+  s.source       = { :git => "https://github.com/romansorochak/Reusable.git", :tag => "1.0.7" }
 
   s.source_files  = "Reusable", "Reusable/**/*.{h,m}"
 end
