@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RSReusable"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "Easy way to setup custom cells with xib"
   s.description  = "Reusable protocol makes it easier to use custom cells with xib for UICollectionView/UItableView. With Reusable library there is no need to register class or nib. You just need to import Reusable and use appropriate method of UITableView/UICollectionView extensions. It also makes it simpler to use custom view with Xib."
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/romansorochak/Reusable.git", :tag => "1.0.7" }
+  s.source       = { :git => "https://github.com/romansorochak/Reusable.git", :tag => "1.0.8" }
 
   s.source_files  = "Reusable", "Reusable/**/*.{h,m}"
 end
