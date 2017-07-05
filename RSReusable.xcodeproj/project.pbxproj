@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B56233361EFA6417002E1B98 /* Reusable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B562332C1EFA6417002E1B98 /* Reusable.framework */; };
+		B56233361EFA6417002E1B98 /* MLReusable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B562332C1EFA6417002E1B98 /* MLReusable.framework */; };
 		B562333B1EFA6417002E1B98 /* ReusableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562333A1EFA6417002E1B98 /* ReusableTests.swift */; };
 		B562333D1EFA6417002E1B98 /* Reusable.h in Headers */ = {isa = PBXBuildFile; fileRef = B562332F1EFA6417002E1B98 /* Reusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5D2341C1EFA6C42005EA5B8 /* UITableView+Dequeueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D2341B1EFA6C42005EA5B8 /* UITableView+Dequeueable.swift */; };
@@ -29,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B562332C1EFA6417002E1B98 /* Reusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B562332C1EFA6417002E1B98 /* MLReusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLReusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B562332F1EFA6417002E1B98 /* Reusable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reusable.h; sourceTree = "<group>"; };
 		B56233301EFA6417002E1B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B56233351EFA6417002E1B98 /* ReusableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56233351EFA6417002E1B98 /* MLReusableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLReusableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B562333A1EFA6417002E1B98 /* ReusableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTests.swift; sourceTree = "<group>"; };
 		B562333C1EFA6417002E1B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5D2341B1EFA6C42005EA5B8 /* UITableView+Dequeueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueable.swift"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56233361EFA6417002E1B98 /* Reusable.framework in Frameworks */,
+				B56233361EFA6417002E1B98 /* MLReusable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +74,8 @@
 		B562332D1EFA6417002E1B98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B562332C1EFA6417002E1B98 /* Reusable.framework */,
-				B56233351EFA6417002E1B98 /* ReusableTests.xctest */,
+				B562332C1EFA6417002E1B98 /* MLReusable.framework */,
+				B56233351EFA6417002E1B98 /* MLReusableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B562332B1EFA6417002E1B98 /* Reusable */ = {
+		B562332B1EFA6417002E1B98 /* MLReusable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B56233401EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "Reusable" */;
+			buildConfigurationList = B56233401EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "MLReusable" */;
 			buildPhases = (
 				B56233271EFA6417002E1B98 /* Sources */,
 				B56233281EFA6417002E1B98 /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = Reusable;
+			name = MLReusable;
 			productName = Reusable;
-			productReference = B562332C1EFA6417002E1B98 /* Reusable.framework */;
+			productReference = B562332C1EFA6417002E1B98 /* MLReusable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B56233341EFA6417002E1B98 /* ReusableTests */ = {
+		B56233341EFA6417002E1B98 /* MLReusableTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B56233431EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "ReusableTests" */;
+			buildConfigurationList = B56233431EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "MLReusableTests" */;
 			buildPhases = (
 				B56233311EFA6417002E1B98 /* Sources */,
 				B56233321EFA6417002E1B98 /* Frameworks */,
@@ -173,9 +173,9 @@
 			dependencies = (
 				B56233381EFA6417002E1B98 /* PBXTargetDependency */,
 			);
-			name = ReusableTests;
+			name = MLReusableTests;
 			productName = ReusableTests;
-			productReference = B56233351EFA6417002E1B98 /* ReusableTests.xctest */;
+			productReference = B56233351EFA6417002E1B98 /* MLReusableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B56233261EFA6417002E1B98 /* Build configuration list for PBXProject "Reusable" */;
+			buildConfigurationList = B56233261EFA6417002E1B98 /* Build configuration list for PBXProject "RSReusable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B562332B1EFA6417002E1B98 /* Reusable */,
-				B56233341EFA6417002E1B98 /* ReusableTests */,
+				B562332B1EFA6417002E1B98 /* MLReusable */,
+				B56233341EFA6417002E1B98 /* MLReusableTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 /* Begin PBXTargetDependency section */
 		B56233381EFA6417002E1B98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B562332B1EFA6417002E1B98 /* Reusable */;
+			target = B562332B1EFA6417002E1B98 /* MLReusable */;
 			targetProxy = B56233371EFA6417002E1B98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B56233261EFA6417002E1B98 /* Build configuration list for PBXProject "Reusable" */ = {
+		B56233261EFA6417002E1B98 /* Build configuration list for PBXProject "RSReusable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B562333E1EFA6417002E1B98 /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B56233401EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "Reusable" */ = {
+		B56233401EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "MLReusable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B56233411EFA6417002E1B98 /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B56233431EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "ReusableTests" */ = {
+		B56233431EFA6417002E1B98 /* Build configuration list for PBXNativeTarget "MLReusableTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B56233441EFA6417002E1B98 /* Debug */,
