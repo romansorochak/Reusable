@@ -140,8 +140,7 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
 ```
 
 ## Author
-Roman Sorochak - iOS developer
-You may contact me via email: roman.sorochak@gmail.com
+Roman Sorochak - iOS developer. You may contact me via email: roman.sorochak@gmail.com
 
 ## License
 
