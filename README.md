@@ -5,11 +5,12 @@ Easy way to setup custom cells with xib
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Author](#author)
 - [License](#license)
 
 ## Requirements
 
-- iOS 9.0+
+- iOS 8.0+
 - Xcode 8.0+
 - Swift 3.0+
 
@@ -29,7 +30,7 @@ To integrate Reusable into your Xcode project using CocoaPods, specify it in you
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
@@ -139,7 +140,7 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
 ```
 
 ## Author
-Roman Sorochak - iOS developer - roman.sorochak@gmail.com
+Roman Sorochak - iOS developer. You may contact me via email: roman.sorochak@gmail.com
 
 ## License
 
