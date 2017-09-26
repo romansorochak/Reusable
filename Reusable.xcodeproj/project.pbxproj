@@ -10,6 +10,7 @@
 		B56233361EFA6417002E1B98 /* Reusable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B562332C1EFA6417002E1B98 /* Reusable.framework */; };
 		B562333B1EFA6417002E1B98 /* ReusableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562333A1EFA6417002E1B98 /* ReusableTests.swift */; };
 		B562333D1EFA6417002E1B98 /* Reusable.h in Headers */ = {isa = PBXBuildFile; fileRef = B562332F1EFA6417002E1B98 /* Reusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B581C1B31F7A898700412CF9 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = B581C1B21F7A898700412CF9 /* .swift-version */; };
 		B5D2341C1EFA6C42005EA5B8 /* UITableView+Dequeueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D2341B1EFA6C42005EA5B8 /* UITableView+Dequeueable.swift */; };
 		B5D2341E1EFA6C5F005EA5B8 /* UICollectionView+Dequeueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D2341D1EFA6C5F005EA5B8 /* UICollectionView+Dequeueable.swift */; };
 		B5D234201EFA6C78005EA5B8 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D2341F1EFA6C78005EA5B8 /* Reusable.swift */; };
@@ -35,6 +36,7 @@
 		B56233351EFA6417002E1B98 /* ReusableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B562333A1EFA6417002E1B98 /* ReusableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTests.swift; sourceTree = "<group>"; };
 		B562333C1EFA6417002E1B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B581C1B21F7A898700412CF9 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = SOURCE_ROOT; };
 		B5D2341B1EFA6C42005EA5B8 /* UITableView+Dequeueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueable.swift"; sourceTree = "<group>"; };
 		B5D2341D1EFA6C5F005EA5B8 /* UICollectionView+Dequeueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Dequeueable.swift"; sourceTree = "<group>"; };
 		B5D2341F1EFA6C78005EA5B8 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				B5D234411EFA7B5D005EA5B8 /* TableView */,
 				B5D2344D1EFA829C005EA5B8 /* CollectionView */,
 				B5D234541EFA9777005EA5B8 /* Extensions */,
+				B581C1B21F7A898700412CF9 /* .swift-version */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B581C1B31F7A898700412CF9 /* .swift-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
