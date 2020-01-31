@@ -13,7 +13,7 @@ public protocol ReusableView: class {}
 
 public extension ReusableView where Self: UIView {
     
-    public static var reuseIdentifier: String {
+    static var reuseIdentifier: String {
         return String(describing: self)
     }
 }
@@ -23,7 +23,7 @@ public protocol NibNameProtocol: class { }
 
 public extension NibNameProtocol where Self: UIView {
     
-    public static var nibName: String {
+    static var nibName: String {
         return String(describing: self)
     }
 }

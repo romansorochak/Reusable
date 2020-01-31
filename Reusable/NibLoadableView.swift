@@ -26,8 +26,8 @@ extension NibLoadableView where Self: UIView {
             
             // Make the view stretch with containing view
             view.autoresizingMask = [
-                UIViewAutoresizing.flexibleWidth,
-                UIViewAutoresizing.flexibleHeight
+                UIView.AutoresizingMask.flexibleWidth,
+                UIView.AutoresizingMask.flexibleHeight
             ]
             
             addSubview(view)

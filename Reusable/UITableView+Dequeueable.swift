@@ -22,7 +22,7 @@ public extension UITableView {
         register(T.self, forHeaderFooterViewReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func dequeueHeaderFooterView<T: UIView>() -> T where T: Reusable {
+    func dequeueHeaderFooterView<T: UIView>() -> T where T: Reusable {
         register(T.self)
         
         return dequeueReusableHeaderFooterView(withIdentifier: T.reuseIdentifier) as! T
@@ -38,7 +38,7 @@ public extension UITableView {
         }
     }
     
-    public func dequeue<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T where T: Reusable {
+    func dequeue<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T where T: Reusable {
         register(T.self)
         
         return dequeueReusableCell(withIdentifier: T.reuseIdentifier, for: indexPath) as! T
